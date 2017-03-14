@@ -1,3 +1,5 @@
+***This is an experimental/unmaintained branch that compiles with the standard Arduino IDE***
+
 [Science Journal][play-store] allows you to gather data from the world around you. It uses sensors to measure your environment, like light and sound, so you can graph your data, record your experiments, and organize your questions and ideas. It's the lab notebook you always have with you.
 
 This sketch is used to make an Arduino that has Bluetooth Low Energy
