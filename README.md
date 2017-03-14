@@ -1,4 +1,4 @@
-***This is an experimental/unmaintained branch that compiles with the standard Arduino IDE***
+***This is an experimental/unmaintained branch that compiles only for the Arduino101 using the standard Arduino IDE***
 
 [Science Journal][play-store] allows you to gather data from the world around you. It uses sensors to measure your environment, like light and sound, so you can graph your data, record your experiments, and organize your questions and ideas. It's the lab notebook you always have with you.
 
@@ -10,8 +10,11 @@ the Uno.
 
 ## Building the firmware
 
-This project uses [Platform IO](http://platformio.org/get-started).
-Please refer to [Build Guide][guide]
+1. Install NanoPB - http://kapsi.fi/~jpa/nanopb/
+1. Open science-journal-arduino/science-journal-arduino.ino in the Arduino IDE
+1. Make sure to the set the IDE to Board -> Arduino/Genuino 101
+1. compile/upload
+
 
 ## Contributing
 
